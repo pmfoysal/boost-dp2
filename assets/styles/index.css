@@ -18,7 +18,6 @@ html {
    outline: 0;
    background-color: transparent;
    user-select: none;
-   mix-blend-mode: difference;
 }
 
 p,
@@ -44,6 +43,7 @@ body {
    align-items: center;
    justify-content: center;
    gap: 4rem;
+   background-color: white;
 }
 
 h1 {
@@ -72,4 +72,10 @@ button {
 
 button:active {
    transform: scale(0.97);
+}
+
+h1,
+h2,
+button {
+   mix-blend-mode: difference;
 }
