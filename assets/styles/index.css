@@ -18,7 +18,6 @@ html {
    outline: 0;
    background-color: transparent;
    user-select: none;
-   mix-blend-mode: difference;
 }
 
 p,
